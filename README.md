@@ -1,6 +1,6 @@
 # Developer Roadmap
 
-This document describes the current status and the upcoming milestones of the web development in 2021
+This document describes my current status and upcoming development milestones as a Software Engineer in 2021
 
 > Updated: Sat, 6 Mar 2021
 
