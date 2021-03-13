@@ -1,58 +1,64 @@
-# Developer Roadmap
+# Developer Roadmap 🧗
 
 This document describes my current status and upcoming development milestones as a Software Engineer in 2021
 
-> Updated: Sat, 6 Mar 2021
+<h2 align="center"><strong>Milestone Summary</strong></h2>
 
-### Milestone Summary
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**1 / 5** goals completed **(20%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Sat Mar 14 2021**
 
-🚀 &nbsp;**OPEN** &nbsp;&nbsp;📉 &nbsp;&nbsp;**2 / 4** goals completed **(50%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Sat Mar 06 2021**
+| Status | Milestone                                                   | Goals  |      ETA       |
+| :----: | :---------------------------------------------------------- | :----: | :------------: |
+|   🚀   | [Pro Git](#pro-git)                                         | 5 / 5  | Mar 2021 (24h) |
+|   🚧   | [GitHub Actions](#github-actions)                           | 1 / 2  | Mar 2021 (32h) |
+|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 6  | Mar 2021 (8h)  |
+|   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 5  | Mar 2021 (24h) |
+|   ❌   | [Personal development](#personal-development)               | 0 / 3  |   2h / week    |
+|   ⭐   | [Typing Speed [en / uk]](#typing-speed-en--uk)              | 40 wpm |   1h / week    |
+|   ⭐   | [English](#english)                                         |   B2   |  30min / day   |
 
-| Status | Milestone | Goals | ETA |
-| :---: | :--- | :---: | :---: |
-| 🚀 | Pro Git | 3 | Mar 2021 (24h) |
-| 🚀 | Github Actions | 2 | Mar 2021 (32h) |
-| 🚧 | Ruby on Rails Best Practice | 1 / 6 | Mar 2021 (8h) |
-| ❌ | AWS Basics | 0 | Mar 2021 (24h) |
-| ⭐ | Improving Typing Speed  | 0 | 2h / week |
-| ⭐ | Intermediate English | 0 | 30min / day |
+<h2 align="center"><strong>Stage 1</strong></h2>
 
-### Stage 1
+Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+Created by **Linus Torvalds** in 2005 for development of the Linux kernel.
 
-<h3 align="center"><strong>Pro Git</strong></h3>
+- [x] Managing History: log / history / reflog / blame / diff
+- [x] branch / switch / checkout / stash
+- [x] merge / reset / amend / restore
+- [x] Hooks
+- [x] Aliases
 
-- [x] Git log
-- [x] Git branching
-- [x] Resolve merge conflicts
+> Resources:  
+> Pro Git written by Scott Chacon and Ben Straub <https://git-scm.com/book/ru/v2>  
+> [Commands](https://gist.github.com/Synkevych/b44932295da84604587b245b311e6f37) to work with git  
+> thoughtbots Mastering Git <https://thoughtbot.com/upcase/mastering-git>  
+> Deliberate Git <https://www.rakeroutes.com/deliberate-git>
 
-> Resources:
-> Pro Git written by Scott Chacon and Ben Straub <https://git-scm.com/book/ru/v2>
+### GitHub Actions
 
-<h3 align="center"><strong>GitHub Actions</strong></h3>
+Helps to automate your workflow in Linux, macOS, Windows, ARM and containers.
+Free 2,000 minutes per month for private repositories, free for public repos.
 
-- [x] Continuous integration (CI) and continuous delivery (CD) concepts
-- [x] Setup for Ruby on Rails project
+- [x] Continuous Integration (CI) and Continuous Delivery (CD) concepts
+- [x] Setup CI for Ruby on Rails project: RSpec, Capybara, Webpacker
 
-> Resources:
-> <https://docs.gitlab.com/ee/ci/introduction/>
+> Resources:  
+> <https://docs.gitlab.com/ee/ci/introduction/>  
+> CI/CD Presentation <https://drive.google.com/file/d/1--LiN27INGaOr1fTkYoMGRX7i658dmqE/view?usp=sharing>
 
----
+### Ruby on Rails Best Practice
 
-<h3 align="center"><strong>Ruby on Rails Best Practice</strong></h3>
-
-- [x] Naming things in programming
+- [x] Naming variable and functions in programming
 - [ ] Concerns
 - [ ] DSL in Ruby
-- [ ] Include, extend, prepend
-- [ ] Metaprogramming
+- [ ] Include, extend, prepend and difference between them
+- [ ] Metaprogramming what it is and how to use it
+- [ ] RESTful API, REST vs GraphQL 💖
 
-> Resources:
-> Naming things <https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7>
+> Resources:  
+> Naming things <https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7>  
 > Чиcтый код - Роберт Мартин <https://habr.com/ru/post/424051/>
 
----
-
-<h3 align="center"><strong>AWS Basics</strong></h3>
+### AWS Basics
 
 Deep dive into AWS Cloud services
 
@@ -62,25 +68,44 @@ Deep dive into AWS Cloud services
 - [ ] AWS Simple Email Service (SES)
 - [ ] AWS Lambda
 
-> Resources:
+> Resources:  
 > AWS Basics for Beginners Full Course <https://www.youtube.com/watch?v=ulprqHHWlng&ab_channel=freeCodeCamp.org>
 
-### Stage 2
+### Personal development
 
-Idea for the future milestones
+- Productivity
+- Focus on task
+- Better communication with others in the team
 
-#### Back-end
+> Resources:  
+> Семь навыков высокоэффективных людей: Мощные инструменты развития личности  
+> Scrum. Навчись робити вдвічі більше за менший час
+
+### Typing Speed [en / uk]
+
+> Resources:  
+> Typing Club <https://www.typingclub.com/sportal>
+
+### English
+
+> Resources:  
+> Duolingo <https://www.duolingo.com/learn>
+
+<h2 align="center"><strong>Stage 2</strong></h2>
+
+### Idea for the future milestones 🌱
+
+#### Back-end 👨‍💻
 
 - Web Serves: Nginx, Apache 💖
-- RESTful API 💖
 - Authentication: JWT, OAuth 2.0
 - SOLID, YAGNI, KISS etc
-- GraphQL, Docker
+- Docker
 - Message Brokers: RabbitMQ, Apache Kafka
 - Search Engines: ElasticSearch, Solr, Sphinx
 - GOF Design Patterns, Architectural Patterns, Different Testing techniques 💖
 
-#### DevOps
+#### DevOps 🧑‍🔧
 
 - OSI Model. TCP/IP/UDP Common ports 💖
 - Knowledge about different file systems 💖
