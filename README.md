@@ -22,6 +22,8 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Stage 1</strong></h2>
 
+## Pro Git
+
 Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
 Created by **Linus Torvalds** in 2005 for development of the Linux kernel.
 
