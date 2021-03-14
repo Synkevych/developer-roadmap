@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer">
-    <img src="header_image.jpg" width="400">
-  </a>
+  <img src="header_image.jpg">
 </p>
 
 # Developer Roadmap 🧗
