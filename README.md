@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer">
+    <img src="header_image.jpg" width="400">
+  </a>
+</p>
+
 # Developer Roadmap 🧗
 
 This document describes my current status and upcoming development milestones as a Software Engineer in 2021
@@ -13,7 +19,7 @@ This document describes my current status and upcoming development milestones as
 |   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 6  | Mar 2021 (8h)  |
 |   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 5  | Mar 2021 (24h) |
 |   ❌   | [Personal development](#personal-development)               | 0 / 3  |   2h / week    |
-|   ⭐   | [Typing Speed [en / uk]](#typing-speed-en--uk)              | 40 wpm |   1h / week    |
+|   ⭐   | [Typing Speed](#typing-speed)                               | 40 wpm |   1h / week    |
 |   ⭐   | [English](#english)                                         |   B2   |  30min / day   |
 
 <h2 align="center"><strong>Stage 1</strong></h2>
@@ -33,7 +39,7 @@ Created by **Linus Torvalds** in 2005 for development of the Linux kernel.
 > thoughtbots Mastering Git <https://thoughtbot.com/upcase/mastering-git>  
 > Deliberate Git <https://www.rakeroutes.com/deliberate-git>
 
-### GitHub Actions
+## GitHub Actions
 
 Helps to automate your workflow in Linux, macOS, Windows, ARM and containers.
 Free 2,000 minutes per month for private repositories, free for public repos.
@@ -45,7 +51,7 @@ Free 2,000 minutes per month for private repositories, free for public repos.
 > <https://docs.gitlab.com/ee/ci/introduction/>  
 > CI/CD Presentation <https://drive.google.com/file/d/1--LiN27INGaOr1fTkYoMGRX7i658dmqE/view?usp=sharing>
 
-### Ruby on Rails Best Practice
+## Ruby on Rails Best Practice
 
 - [x] Naming variable and functions in programming
 - [ ] Concerns
@@ -58,7 +64,7 @@ Free 2,000 minutes per month for private repositories, free for public repos.
 > Naming things <https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7>  
 > Чиcтый код - Роберт Мартин <https://habr.com/ru/post/424051/>
 
-### AWS Basics
+## AWS Basics
 
 Deep dive into AWS Cloud services
 
@@ -71,7 +77,7 @@ Deep dive into AWS Cloud services
 > Resources:  
 > AWS Basics for Beginners Full Course <https://www.youtube.com/watch?v=ulprqHHWlng&ab_channel=freeCodeCamp.org>
 
-### Personal development
+## Personal development
 
 - Productivity
 - Focus on task
@@ -81,21 +87,24 @@ Deep dive into AWS Cloud services
 > Семь навыков высокоэффективных людей: Мощные инструменты развития личности  
 > Scrum. Навчись робити вдвічі більше за менший час
 
-### Typing Speed [en / uk]
+## Typing Speed
+
+- en 🇺🇸
+- uk 🇺🇦
 
 > Resources:  
 > Typing Club <https://www.typingclub.com/sportal>
 
-### English
+## English
 
 > Resources:  
 > Duolingo <https://www.duolingo.com/learn>
 
 <h2 align="center"><strong>Stage 2</strong></h2>
 
-### Idea for the future milestones 🌱
+## Idea for the future milestones 🌱
 
-#### Back-end 👨‍💻
+## Back-end 👨‍💻
 
 - Web Serves: Nginx, Apache 💖
 - Authentication: JWT, OAuth 2.0
@@ -105,7 +114,7 @@ Deep dive into AWS Cloud services
 - Search Engines: ElasticSearch, Solr, Sphinx
 - GOF Design Patterns, Architectural Patterns, Different Testing techniques 💖
 
-#### DevOps 🧑‍🔧
+## DevOps 🧑‍🔧
 
 - OSI Model. TCP/IP/UDP Common ports 💖
 - Knowledge about different file systems 💖
