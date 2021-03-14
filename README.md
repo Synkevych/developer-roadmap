@@ -14,7 +14,7 @@ This document describes my current status and upcoming development milestones as
 | :----: | :---------------------------------------------------------- | :----: | :------------: |
 |   🚀   | [Pro Git](#pro-git)                                         | 5 / 5  | Mar 2021 (24h) |
 |   🚧   | [GitHub Actions](#github-actions)                           | 1 / 2  | Mar 2021 (32h) |
-|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 6  | Mar 2021 (8h)  |
+|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 7  | Mar 2021 (8h)  |
 |   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 5  | Mar 2021 (24h) |
 |   ❌   | [Personal development](#personal-development)               | 0 / 3  |   2h / week    |
 |   ⭐   | [Typing Speed](#typing-speed)                               | 40 wpm |   1h / week    |
@@ -53,11 +53,14 @@ Free 2,000 minutes per month for private repositories, free for public repos.
 
 ## Ruby on Rails Best Practice
 
+Ruby on Rails is an excellent tool that helps to quickly and efficiently implement the functionality that the customer wants. But like any tool, it can become a device that helps to do work more sophisticated and faster, or become a dangerous weapon. Best practices helps to understand the difference and also has some benefits: maintainability, readability, elegance, faster development, DRY code.
+
 - [x] Naming variable and functions in programming
 - [ ] Concerns
 - [ ] DSL in Ruby
 - [ ] Include, extend, prepend and difference between them
 - [ ] Metaprogramming what it is and how to use it
+- [ ] Using Arel to compose SQL queries
 - [ ] RESTful API, REST vs GraphQL 💖
 
 > Resources:  
@@ -66,7 +69,8 @@ Free 2,000 minutes per month for private repositories, free for public repos.
 
 ## AWS Basics
 
-Deep dive into AWS Cloud services
+Internally launched in 2002.
+According to Gartner in 2020 AWS is evaluated as a Leader with the highest score in the both cloud infrastructure and platform services (IaaS & PaaS).
 
 - [ ] AWS Identity and Access Management (IAM)
 - [ ] AWS Simple Storage Services (S3) 💖
@@ -79,6 +83,8 @@ Deep dive into AWS Cloud services
 
 ## Personal development
 
+Focus on work, identifying my most productive hours throughout the day, and completing my most important tasks during those hours. Correct formulation of the problem and look at the problem from different angles, rethinking the task. Breaking the task down into small parts and setting the correct priorities for their implementation.
+
 - Productivity
 - Focus on task
 - Better communication with others in the team
@@ -89,6 +95,8 @@ Deep dive into AWS Cloud services
 
 ## Typing Speed
 
+Typing on the keyboard should be like breathing - precise and fast at the right moments.
+
 - en 🇺🇸
 - uk 🇺🇦
 
@@ -97,10 +105,15 @@ Deep dive into AWS Cloud services
 
 ## English
 
+English, English, English it is needed everywhere and one of the most important thing in this roadmap.
+
 > Resources:  
 > Duolingo <https://www.duolingo.com/learn>
 
 <h2 align="center"><strong>Stage 2</strong></h2>
+
+
+
 
 ## Idea for the future milestones 🌱
 
@@ -109,7 +122,7 @@ Deep dive into AWS Cloud services
 - Web Serves: Nginx, Apache 💖
 - Authentication: JWT, OAuth 2.0
 - SOLID, YAGNI, KISS etc
-- Docker
+- Docker and containerization strategy
 - Message Brokers: RabbitMQ, Apache Kafka
 - Search Engines: ElasticSearch, Solr, Sphinx
 - GOF Design Patterns, Architectural Patterns, Different Testing techniques 💖
