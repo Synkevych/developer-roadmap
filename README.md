@@ -95,7 +95,8 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 
 ## Typing Speed
 
-Typing on the keyboard should be like breathing - precise and fast at the right moments.
+Typing on the keyboard should be like breathing - precise and fast at the right moments.  
+Blind typing helps you focus on your work without thinking about the keys or looking at the keyboard. It will also help avoid spelling errors that are difficult to track down and not tracked in the IDE.
 
 - en 🇺🇸
 - uk 🇺🇦
