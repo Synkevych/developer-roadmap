@@ -17,7 +17,7 @@ This document describes my current status and upcoming development milestones as
 |   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 7  | Mar 2021 (8h)  |
 |   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 5  | Mar 2021 (24h) |
 |   ❌   | [Personal development](#personal-development)               | 0 / 3  |   2h / week    |
-|   ⭐   | [Typing Speed](#typing-speed)                               | 40 wpm |   1h / week    |
+|   ⭐   | [Typing Speed](#typing-speed)                               | 50 wpm |   1h / week    |
 |   ⭐   | [English](#english)                                         |   B2   |  30min / day   |
 
 <h2 align="center"><strong>Stage 1</strong></h2>
@@ -56,6 +56,7 @@ Free 2,000 minutes per month for private repositories, free for public repos.
 Ruby on Rails is an excellent tool that helps to quickly and efficiently implement the functionality that the customer wants. But like any tool, it can become a device that helps to do work more sophisticated and faster, or become a dangerous weapon. Best practices helps to understand the difference and also has some benefits: maintainability, readability, elegance, faster development, DRY code.
 
 - [x] Naming variable and functions in programming
+- [ ] Securing Sensitive Data 💖
 - [ ] Concerns
 - [ ] DSL in Ruby
 - [ ] Include, extend, prepend and difference between them
