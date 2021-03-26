@@ -8,14 +8,15 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Milestone Summary</strong></h2>
 
-🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**1 / 5** goals completed **(20%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Sat Mar 14 2021**
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**1 / 6** goals completed **(20%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Sat Mar 14 2021**
 
 | Status | Milestone                                                   | Goals  |      ETA       |
 | :----: | :---------------------------------------------------------- | :----: | :------------: |
 |   🚀   | [Pro Git](#pro-git)                                         | 5 / 5  | Mar 2021 (24h) |
 |   🚧   | [GitHub Actions](#github-actions)                           | 1 / 2  | Mar 2021 (32h) |
-|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 7  | Mar 2021 (8h)  |
+|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 9  | Mar 2021 (8h)  |
 |   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 5  | Mar 2021 (24h) |
+|   ❌   | [Golang](#golang)                                           | 0 / 9  | Apr 2021 (50h) |
 |   ❌   | [Personal development](#personal-development)               | 0 / 3  |   2h / week    |
 |   ⭐   | [Typing Speed](#typing-speed)                               | 50 wpm |   1h / week    |
 |   ⭐   | [English](#english)                                         |   B2   |  30min / day   |
@@ -41,8 +42,8 @@ Created by **Linus Torvalds** in 2005 for development of the Linux kernel.
 
 ## GitHub Actions
 
-Helps to automate your workflow in Linux, macOS, Windows, ARM and containers.
-Free 2,000 minutes per month for private repositories, free for public repos.
+Helps to automate software workflow with world-class CI/CD in Linux, macOS, Windows, ARM and containers.
+Provide live logs for easy find bugs and vulnerability. Has a lot of open source libraries for help to manage workflow.
 
 - [x] Continuous Integration (CI) and Continuous Delivery (CD) concepts
 - [x] Setup CI for Ruby on Rails project: RSpec, Capybara, Webpacker
@@ -63,15 +64,18 @@ Ruby on Rails is an excellent tool that helps to quickly and efficiently impleme
 - [ ] Metaprogramming what it is and how to use it
 - [ ] Using Arel to compose SQL queries
 - [ ] RESTful API, REST vs GraphQL 💖
+- [ ] Data Structures 💖
 
 > Resources:  
 > Naming things <https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7>  
 > Чиcтый код - Роберт Мартин <https://habr.com/ru/post/424051/>
+> [Securing Sensitive Data in Rails](https://ankane.org/sensitive-data-rails)
 
 ## AWS Basics
 
-Internally launched in 2002.
-According to Gartner in 2020 AWS is evaluated as a Leader with the highest score in the both cloud infrastructure and platform services (IaaS & PaaS).
+Amazon Web Services launched in 2002 is the market leader in IaaS (Infrastructure-as-a-Service) and PaaS (Platform-as-a-Service) for cloud ecosystems, which can be combined to create a scalable cloud application without worrying about delays related to infrastructure provisioning (compute, storage, and network) and management.
+With AWS you'll find a complete set of highly available services which is designed to work together to build sophisticated scalable application delivered over the internet.
+You'll have on-demand access to highly durable storage, low-cost compute, high-performance databases and the tools to manage these resources all available with upfront costs only pay for what you use.
 
 - [ ] AWS Identity and Access Management (IAM)
 - [ ] AWS Simple Storage Services (S3) 💖
@@ -81,6 +85,16 @@ According to Gartner in 2020 AWS is evaluated as a Leader with the highest score
 
 > Resources:  
 > AWS Basics for Beginners Full Course <https://www.youtube.com/watch?v=ulprqHHWlng&ab_channel=freeCodeCamp.org>
+> [AWS Certified Cloud Practitioner Study Guide](https://www.ebooks.com/en-ua/book/209700948/aws-certified-cloud-practitioner-study-guide/ben-piper/)
+
+## Golang
+
+Created by Google in 2009 Go programming language do what Google does: performant web applications at scale.
+Go is the most powerful, performant, and scalable programming language today for creating web application, web API's, microservices and other distributed services.
+
+> Resources:  
+> Udemy course: <https://www.udemy.com/course/go-programming-language/>
+> Golang web dev <https://github.com/GoesToEleven/golang-web-dev>
 
 ## Personal development
 
@@ -113,9 +127,6 @@ English, English, English it is needed everywhere and one of the most important 
 > Duolingo <https://www.duolingo.com/learn>
 
 <h2 align="center"><strong>Stage 2</strong></h2>
-
-
-
 
 ## Idea for the future milestones 🌱
 
