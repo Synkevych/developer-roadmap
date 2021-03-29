@@ -8,16 +8,16 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Milestone Summary</strong></h2>
 
-🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**1 / 6** goals completed **(20%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 6** goals completed **(10%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
 
-| Status | Milestone                                                   | Goals  |      ETA       |
+| Status | Milestone                                                   | Goals  |   ETA (240h)   |
 | :----: | :---------------------------------------------------------- | :----: | :------------: |
 |   🚧   | [GitHub Actions](#github-actions)                           | 1 / 2  | Mar 2021 (32h) |
-|   🚧   | [Ruby in depth](#ruby-in-depth)                             | 1 / 9  | Mar 2021 (8h)  |
-|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 9  | Mar 2021 (8h)  |
-|   ❌   | [Junior Fronted Developer](#junior-fronted-developer)       | 0 / 5  | Mar 2021 (24h) |
-|   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 5  | Mar 2021 (24h) |
-|   ❌   | [Personal development](#personal-development)               | 0 / 3  |   2h / week    |
+|   🚧   | [Ruby in depth](#ruby-in-depth)                             | 0 / 6  | Mar 2021 (8h)  |
+|   🚧   | [Ruby on Rails Best Practice](#ruby-on-rails-best-practice) | 1 / 8  | Mar 2021 (8h)  |
+|   ❌   | [Junior Fronted Developer](#junior-fronted-developer)       | 0 / 9  | Mar 2021 (24h) |
+|   ❌   | [AWS Basics](#aws-basics)                                   | 0 / 4  | Mar 2021 (24h) |
+|   ❌   | [Personal development](#personal-development)               | 0 / 4  |   2h / week    |
 |   ❌   | [Lightning talk](#lightning_talk)                           |   1    |                |
 |   ⭐   | [Typing Speed](#typing-speed)                               | 50 wpm |   1h / week    |
 |   ⭐   | [English](#english)                                         |   B2   |  30min / day   |
@@ -44,7 +44,10 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 - [ ] DSL in Ruby, Concerns
 - [ ] Include, extend, prepend and difference between them
 - [ ] Metaprogramming what it is and how to use it
-- [ ] SOLID, YAGNI, KISS etc
+- [ ] SOLID, GRASP, YAGNI, KISS DRY etc
+
+> Resources: 
+> [How to use Rack Middlewares](https://guides.rubyonrails.org/rails_on_rack.html)
 
 ## Ruby on Rails Best Practice
 
@@ -52,11 +55,12 @@ Ruby on Rails is an excellent tool that helps to quickly and efficiently impleme
 
 - [x] Naming variable and functions in programming
 - [ ] Securing Sensitive Data(concepts and examples) 💖
-- [ ] Using Arel to compose SQL queries
 - [ ] RESTful API, REST vs GraphQL 💖
 - [ ] Authentication: JWT, OAuth 2.0
 - [ ] Catching with Rails
+- [ ] SQL queries in Rails
 - [ ] Isolation (database systems)
+- [ ] Global classes: Active Record, Active Job, Active Support, Active Cable, Active Storage Action Mailer
 
 > Resources:  
 > Naming things <https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7>  
@@ -67,7 +71,21 @@ Ruby on Rails is an excellent tool that helps to quickly and efficiently impleme
 ## Junior Fronted Developer
 
 - [ ] Pass interview as a Junior Fronted Developer
-- [ ] 
+
+To do this, content to repeat:
+
+- WebSocket, HTTP, HTTPs, ftp, ssh
+- Currying and Composition
+- Promises, Async/Await, XMLHttpRequest, Yeld Function
+- Rest operator, Spred operator
+- Error objects in JS
+- CORS
+- Closures(local, global, block) and Scopes
+- 3 different types of inheritance
+- bind(), apply(), call()
+
+> Resources:  
+> [Job Interview Tasks](https://github.com/Synkevych/job_interview_tasks)
 
 ## AWS Basics
 
@@ -91,6 +109,7 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 - Productivity
 - Focus on task
 - Better communication with others in the team
+- Calculating the time to complete the task
 
 > Resources:  
 > Семь навыков высокоэффективных людей: Мощные инструменты развития личности  
