@@ -145,6 +145,8 @@ English, English, English it is needed everywhere and one of the most important 
 
 ## Lightning talk
 
+The main idea is to hold out for 20 minutes, telling something understandable and at the same time keep attention on the presentation, so that no one falls asleep
+
 <h2 align="center"><strong>Stage 2</strong></h2>
 
 ## Idea for the future milestones 🌱
