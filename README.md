@@ -76,7 +76,7 @@ With AWS you'll find a complete set of highly available services which is design
 You'll have on-demand access to highly durable storage, low-cost compute, high-performance databases and the tools to manage these resources all available with upfront costs only pay for what you use.
 
 - [ ] AWS Identity and Access Management (IAM)
-- [ ] Create different keys and folder
+- [ ] Create different keys and folders
 - [ ] AWS Simple Storage Services (S3) 💖
 - [ ] Generate Access Keys and setup AWS S3 on Rails project
 
@@ -124,7 +124,7 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 > [Как способность фокусироваться на одной задаче может сделать вас продуктивнее](https://hype.tech/@id1728/kak-sposobnost-fokusirovatsya-na-odnoy-zadache-mozhet-sdelat-vas-produktivnee-8xk9i1zx)  
 > [Гибкий ум. Как видеть вещи иначе и думать нестандартно](https://www.yakaboo.ua/gibkij-um-kak-videt-veschi-inache-i-dumat-nestandartno.html)
 
-### Typing Speed
+### ⌨️ Typing Speed - 50wps
 
 Typing on the keyboard should be like breathing - precise and fast at the right moments.  
 Blind typing helps you focus on your work without thinking about the keys or looking at the keyboard. It will also help avoid spelling errors that are difficult to track down and not tracked in the IDE.
@@ -135,7 +135,7 @@ Blind typing helps you focus on your work without thinking about the keys or loo
 > Resources:  
 > Typing Club <https://www.typingclub.com/sportal>
 
-### English
+### English - Intermidiate
 
 English, English, English it is needed everywhere and one of the most important thing in this roadmap.
 
@@ -174,7 +174,7 @@ The main idea is to hold out for 20 minutes, telling something understandable an
 - TLS, STARTTLS, SSL, HTTPS, SCP, SSH, SFTP
 - Postmortem analysis when something bad happens
 
-## Golang
+## Golang 🇬.🇴
 
 Created by Google in 2009 Go programming language do what Google does: performant web applications at scale.
 Go is the most powerful, performant, and scalable programming language today for creating web application, web API's, microservices and other distributed services.
@@ -182,5 +182,11 @@ Go is the most powerful, performant, and scalable programming language today for
 > Resources:  
 > Udemy course: <https://www.udemy.com/course/go-programming-language/>
 > Golang web dev <https://github.com/GoesToEleven/golang-web-dev>
+
+## Angular 🅰️
+
+The modern web developer's platform. Angular, supported by Google, is an open-source software engineering platform used for building user interfaces (front-end). 
+
+> Resources: https://angular.io/  
 
 </details>
