@@ -30,10 +30,19 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 - [x] Continuous Integration (CI) and Continuous Delivery (CD) concepts
 - [ ] Concepts of cache and containers
 - [ ] Setup CI for RoR project(with PostgreSQL, RSpec, Capybara, Webpacker)
+- [ ] Setup CD - deploy application to Heroku using **Deploy to Heroku action**
 
-> Resources:  
-> <https://docs.gitlab.com/ee/ci/introduction/>  
-> CI/CD Presentation <https://drive.google.com/file/d/1--LiN27INGaOr1fTkYoMGRX7i658dmqE/view?usp=sharing>
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+> [GitHub Action](https://docs.gitlab.com/ee/ci/introduction)  
+> [Go Rails video](https://www.youtube.com/watch?v=gGUXydw22zw&ab_channel=GoRails)  
+> [GitHub CI and CD to Firebase](https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship)  
+> [Integration with Asana](https://github.com/marketplace/actions/asana-github-actions)  
+> [Deploy to Heroku](https://github.com/marketplace/actions/deploy-to-heroku)  
+
+</details>
 
 ## Ruby in depth
 
