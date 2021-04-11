@@ -8,11 +8,11 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Milestone Summary</strong></h2>
 
-🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(1%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(5%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
 
 | Status | Milestone                                     | Goals |   ETA (240h)   |
 | :----: | :-------------------------------------------- | :---: | :------------: |
-|   🚧   | [GitHub Actions](#github-actions)             | 1 / 3 |   Apr 2021     |
+|   🚧   | [GitHub Actions](#github-actions)             | 2 / 4 |   Apr 2021     |
 |   ❌   | [Ruby under the hood](#ruby-in-depth)         | 0 / 6 |   May 2021     |
 |   🚧   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 1 / 9 |   Jun 2021     |
 |   ❌   | [AWS Basics](#aws-basics)                     | 0 / 4 |   Jul 2021     |
@@ -29,7 +29,7 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 
 - [x] Continuous Integration (CI) and Continuous Delivery (CD) concepts
 - [ ] Concepts of cache and containers
-- [ ] Setup CI for RoR project(with PostgreSQL, RSpec, Capybara, Webpacker)
+- [x] Setup CI for RoR project(with PostgreSQL, RSpec, Capybara, Webpacker)
 - [ ] Setup CD - deploy application to Heroku using **Deploy to Heroku action**
 
 <details>
@@ -41,6 +41,7 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 > [GitHub CI and CD to Firebase](https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship)  
 > [Integration with Asana](https://github.com/marketplace/actions/asana-github-actions)  
 > [Deploy to Heroku](https://github.com/marketplace/actions/deploy-to-heroku)  
+> [Ruby on Rails project with customized Github CI](https://github.com/Synkevych/money_spent_counter)
 
 </details>
 
@@ -53,8 +54,14 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 - [ ] Metaprogramming what it is and how to use it
 - [ ] SOLID, GRASP, YAGNI, KISS DRY etc
 
-> Resources:
-> [How to use Rack Middlewares](https://guides.rubyonrails.org/rails_on_rack.html)
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+> [How to use Rack Middlewares](https://guides.rubyonrails.org/rails_on_rack.html)  
+> [Ruby data structures](https://www.rubyguides.com/2019/04/ruby-data-structures)  
+
+</details>
 
 ## Is RoR Dead?
 
@@ -71,12 +78,17 @@ To answer this question, I need to study in more detail the internal structure a
 - [ ] Rails Concepts
 - [ ] Create simple application using Active Cable + Redis
 
-> Resources:  
-> Naming things <https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7>  
-> Чиcтый код - Роберт Мартин <https://habr.com/ru/post/424051/>  
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+> [Naming things](https://gist.github.com/tmcw/35849b7e9b86bb0c125972b2bb275bc7)  
+> [Чиcтый код - Роберт Мартин](https://habr.com/ru/post/424051)  
 > [Securing Sensitive Data in Rails](https://ankane.org/sensitive-data-rails)  
 > [Catching with Rails](http://rusrails.ru/caching-with-rails-an-overview)  
 > [Rails Concerns](https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html)
+
+</details>
 
 ## AWS Basics
 
@@ -89,17 +101,20 @@ You'll have on-demand access to highly durable storage, low-cost compute, high-p
 - [ ] AWS Simple Storage Services (S3) 💖
 - [ ] Generate Access Keys and setup AWS S3 on Rails project
 
-> Resources:  
-> AWS Basics for Beginners Full Course <https://www.youtube.com/watch?v=ulprqHHWlng&ab_channel=freeCodeCamp.org>  
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+> [AWS Basics for Beginners Full Course](https://www.youtube.com/watch?v=ulprqHHWlng&ab_channel=freeCodeCamp.org)  
 > [AWS Certified Cloud Practitioner Study Guide](https://www.ebooks.com/en-ua/book/209700948/aws-certified-cloud-practitioner-study-guide/ben-piper/)
+
+</details>
 
 ## Boring Front and End
 
 - [ ] Pass interview as a Junior Fronted Developer
 
-<details>
-<summary>To do this, repeat the following:</summary>
-<br>
+### Content for repeat
 
 - WebSocket, HTTP, HTTPs, ftp, ssh
 - Currying and Composition
@@ -109,13 +124,18 @@ You'll have on-demand access to highly durable storage, low-cost compute, high-p
 - React lifecycle methods
 - Error objects in JS
 - 3 different types of inheritance
-- bind, apply, call
+- bind, apply, call methods
 - CORS
 
-</details>
+<details>
+<summary><b>Resources:</b></summary>
+<br>
 
-> Resources:  
-> [Job Interview Tasks](https://github.com/Synkevych/job_interview_tasks)
+> [Job Interview Tasks](https://github.com/Synkevych/job_interview_tasks)  
+> [You dont know JS](https://github.com/getify/You-Dont-Know-JS)  
+> [freeCodeCamp open-source codebase](https://github.com/freeCodeCamp/freeCodeCamp)  
+
+</details>
 
 ## Personal development
 
@@ -126,14 +146,19 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 - [ ] Become a better Stack Overflow user
 - [ ] Estimating task execution time
 
-> Resources:  
-> Семь навыков высокоэффективных людей: Мощные инструменты развития личности  
-> Scrum. Навчись робити вдвічі більше за менший час
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+> [The 7 Habits of Highly Effective People](https://www.yakaboo.ua/7-habits-of-highly-effective-people)  
+> [Scrum. Навчись робити вдвічі більше за менший час](https://www.yakaboo.ua/scrum-navchis-robiti-vdvichi-bil-she-za-menshij-chas)  
 > [Оценка времени выполения задачи](https://habr.com/ru/post/52472/)  
 > [Как способность фокусироваться на одной задаче может сделать вас продуктивнее](https://hype.tech/@id1728/kak-sposobnost-fokusirovatsya-na-odnoy-zadache-mozhet-sdelat-vas-produktivnee-8xk9i1zx)  
 > [Гибкий ум. Как видеть вещи иначе и думать нестандартно](https://www.yakaboo.ua/gibkij-um-kak-videt-veschi-inache-i-dumat-nestandartno.html)
 
-### ⌨️ Typing Speed - 50wps
+</details>
+
+### ⌨️ Typing Speed ⌨️ - 50wps
 
 Typing on the keyboard should be like breathing - precise and fast at the right moments.  
 Blind typing helps you focus on your work without thinking about the keys or looking at the keyboard. It will also help avoid spelling errors that are difficult to track down and not tracked in the IDE.
@@ -142,29 +167,51 @@ Blind typing helps you focus on your work without thinking about the keys or loo
 - uk 🇺🇦
 
 > Resources:  
-> Typing Club <https://www.typingclub.com/sportal>
+> [Typing Club](https://www.typingclub.com/sportal)
 
-### English - Intermidiate
+### English 🌐 - Intermidiate
 
 English, English, English it is needed everywhere and one of the most important thing in this roadmap.
 
 > Resources:  
-> Duolingo <https://www.duolingo.com/learn>  
+> [Duolingo](https://www.duolingo.com/learn)  
 > [Let's Master English with Coach Shane](.)
 
 ## Lightning talk
 
-The main idea is to hold out for 20 minutes, telling something understandable and at the same time keep attention on the presentation, so that no one falls asleep
+The main idea is to tell the audience something interesting from their own experience (for example, a hobby, a new technology, a previous trip) in 20-30 minutes. This presentation should not be very technical - so that it is interesting for all employees of the company.
+
+### Presentation topic 🗣️: "Linux is everywhere – Facts everyone should know"
+
+What device are you reading this article on?
+
+If it happens to be an Android smart device, you are using a machine running Linux at its core. The majority of web servers, including ours that is serving you this very page, and cloud infrastructure are Linux-based as well. “So, what is Linux, some piece of internet software?” the uninitiated might ask.
+
+Well, Linux isn’t found just in your smartphone or on the internet, it’s probably present in your car as well, be it an Audi, Honda, or Mercedes. Not impressed yet?
+
+How about this – all of the world’s top 500 supercomputers use Linux as their OS (in case you’re scratching head as to what an OS is, we’ll explain that later). It also powers most of the software behind the US Department of Defense, Amazon, Instagram, and Wikipedia, to name just a few.
+
+So, is Linux an operating system? Yes, Linux it is one of the most powerful operating systems in the world! And it powers much more of the global technology than most people give it credit for. Linux is clearly much more present in our lives than we realize, but it tends to get overshadowed by its bigger, older cousins Windows and Macintosh. As a result, relatively few people know much about it, and some have never even heard of it.
+
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+> [111+ Linux Statistics and Facts – Linux Rocks!](https://hostingtribunal.com/blog/linux-statistics)  
+> [Linux vs Unix – What’s the Difference?](https://www.plesk.com/blog/various/linux-vs-unix-whats-the-difference/)  
+> [What is Linux: Definition, History, Significance, Perks, and Pitfalls](https://hostingtribunal.com/blog/what-is-linux/)  
+
+</details>
 
 <h2 align="center"><strong>Stage 2</strong></h2>
 
 ## Idea for the future milestones 🌱
 
 <details>
-<summary>Show all goofy ideas</summary>
+<summary>Show all ideas</summary>
 <br>
 
-## Back-end 👨‍💻
+### Back-end 👨‍💻
 
 - Web Serves: Nginx, Apache 💖
 - Docker and containerization strategy
@@ -172,7 +219,7 @@ The main idea is to hold out for 20 minutes, telling something understandable an
 - Search Engines: ElasticSearch, Solr, Sphinx
 - GOF Design Patterns, Architectural Patterns, Different Testing techniques 💖
 
-## DevOps 🧑‍🔧
+### DevOps 🧑‍🔧
 
 - OSI Model. TCP/IP/UDP Common ports 💖
 - Knowledge about different file systems 💖
@@ -183,19 +230,20 @@ The main idea is to hold out for 20 minutes, telling something understandable an
 - TLS, STARTTLS, SSL, HTTPS, SCP, SSH, SFTP
 - Postmortem analysis when something bad happens
 
-## Golang 🇬.🇴
+### Golang 🇬.🇴
 
 Created by Google in 2009 Go programming language do what Google does: performant web applications at scale.
 Go is the most powerful, performant, and scalable programming language today for creating web application, web API's, microservices and other distributed services.
 
 > Resources:  
-> Udemy course: <https://www.udemy.com/course/go-programming-language/>
-> Golang web dev <https://github.com/GoesToEleven/golang-web-dev>
+> [Udemy course] (https://www.udemy.com/course/go-programming-language)  
+> [Golang web dev] (https://github.com/GoesToEleven/golang-web-dev)  
 
 ## Angular 🅰️
 
-The modern web developer's platform. Angular, supported by Google, is an open-source software engineering platform used for building user interfaces (front-end). 
+The modern web developer's platform. Angular, supported by Google, is an open-source software engineering platform used for building user interfaces (front-end).
 
-> Resources: https://angular.io/  
+> Resources:  
+> [Angular](https://angular.io)  
 
 </details>
