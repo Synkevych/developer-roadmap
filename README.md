@@ -20,7 +20,7 @@ This document describes my current status and upcoming development milestones as
 |   ❌   | [Personal development](#personal-development) | 0 / 4 |   2h / week    |
 |   ❌   | [Lightning talk](#lightning_talk)             |   1   |      Aug       |
 
-<h2 align="center"><strong>Stage 1</strong></h2>
+<h2 align="center"><strong>Stage #️⃣1️⃣</strong></h2>
 
 ## GitHub Actions
 
@@ -158,7 +158,7 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 
 </details>
 
-### ⌨️ Typing Speed ⌨️ - 50wps
+### ⌨️ Typing Speed - 50wps
 
 Typing on the keyboard should be like breathing - precise and fast at the right moments.  
 Blind typing helps you focus on your work without thinking about the keys or looking at the keyboard. It will also help avoid spelling errors that are difficult to track down and not tracked in the IDE.
@@ -169,7 +169,7 @@ Blind typing helps you focus on your work without thinking about the keys or loo
 > Resources:  
 > [Typing Club](https://www.typingclub.com/sportal)
 
-### English 🌐 - Intermidiate
+### 🌐 English - Intermidiate
 
 English, English, English it is needed everywhere and one of the most important thing in this roadmap.
 
@@ -181,7 +181,7 @@ English, English, English it is needed everywhere and one of the most important 
 
 The main idea is to tell the audience something interesting from their own experience (for example, a hobby, a new technology, a previous trip) in 20-30 minutes. This presentation should not be very technical - so that it is interesting for all employees of the company.
 
-### Presentation topic 🗣️: "Linux is everywhere – Facts everyone should know"
+### 🗣️ Presentation topic: **Linux is everywhere – Facts everyone should know**
 
 What device are you reading this article on?
 
@@ -203,9 +203,9 @@ So, is Linux an operating system? Yes, Linux it is one of the most powerful oper
 
 </details>
 
-<h2 align="center"><strong>Stage 2</strong></h2>
+<h2 align="center"><strong>Stage #️⃣2️⃣</strong></h2>
 
-## Idea for the future milestones 🌱
+## 🌱 Idea for the future milestones
 
 <details>
 <summary>Show all ideas</summary>
