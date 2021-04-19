@@ -8,14 +8,14 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Milestone Summary</strong></h2>
 
-🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(5%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(10%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
 
 | Status | Milestone                                     | Goals |   ETA (240h)   |
 | :----: | :-------------------------------------------- | :---: | :------------: |
 |   🚧   | [GitHub Actions](#github-actions)             | 2 / 4 |   Apr 2021     |
-|   ❌   | [Ruby under the hood](#ruby-in-depth)         | 0 / 6 |   May 2021     |
+|   🚧   | [Ruby under the hood](#ruby-in-depth)         | 1 / 6 |   May 2021     |
 |   🚧   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 1 / 9 |   Jun 2021     |
-|   ❌   | [AWS Basics](#aws-basics)                     | 0 / 4 |   Jul 2021     |
+|   🚧   | [AWS Basics](#aws-basics)                     | 1 / 4 |   Jul 2021     |
 |   ❌   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
 |   ❌   | [Personal development](#personal-development) | 0 / 4 |   2h / week    |
 |   ❌   | [Lightning talk](#lightning_talk)             |   1   |      Aug       |
@@ -47,12 +47,12 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 
 ## Ruby in depth
 
-- [ ] Rack on Ruby
+- [x] Rack on Ruby
 - [ ] DSL in Ruby
 - [ ] Data Structures 💖
 - [ ] Include, extend, prepend and difference between them
 - [ ] Metaprogramming what it is and how to use it
-- [ ] SOLID, GRASP, YAGNI, KISS DRY etc
+- [ ] SOLID, GRASP, YAGNI, KISS, DRY etc
 
 <details>
 <summary><b>Resources:</b></summary>
@@ -60,6 +60,7 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 
 > [How to use Rack Middlewares](https://guides.rubyonrails.org/rails_on_rack.html)  
 > [Ruby data structures](https://www.rubyguides.com/2019/04/ruby-data-structures)  
+> [What is Rack](https://github.com/Synkevych/job_interview_tasks/blob/master/Interview_8_BlackBird.md#what-is-rack)  
 
 </details>
 
@@ -86,7 +87,7 @@ To answer this question, I need to study in more detail the internal structure a
 > [Чиcтый код - Роберт Мартин](https://habr.com/ru/post/424051)  
 > [Securing Sensitive Data in Rails](https://ankane.org/sensitive-data-rails)  
 > [Catching with Rails](http://rusrails.ru/caching-with-rails-an-overview)  
-> [Rails Concerns](https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html)
+> [Rails Concerns](https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html)  
 
 </details>
 
@@ -96,7 +97,7 @@ Amazon Web Services launched in 2002 is the market leader in IaaS (Infrastructur
 With AWS you'll find a complete set of highly available services which is designed to work together to build sophisticated scalable application delivered over the internet.
 You'll have on-demand access to highly durable storage, low-cost compute, high-performance databases and the tools to manage these resources all available with upfront costs only pay for what you use.
 
-- [ ] AWS Identity and Access Management (IAM)
+- [x] AWS Identity and Access Management (IAM)
 - [ ] Create different keys and folders
 - [ ] AWS Simple Storage Services (S3) 💖
 - [ ] Generate Access Keys and setup AWS S3 on Rails project
@@ -134,6 +135,7 @@ You'll have on-demand access to highly durable storage, low-cost compute, high-p
 > [Job Interview Tasks](https://github.com/Synkevych/job_interview_tasks)  
 > [You dont know JS](https://github.com/getify/You-Dont-Know-JS)  
 > [freeCodeCamp open-source codebase](https://github.com/freeCodeCamp/freeCodeCamp)  
+> [Basic info about React](https://github.com/Synkevych/job_interview_tasks/blob/master/JavaScript/React.md)  
 
 </details>
 
@@ -152,9 +154,9 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 
 > [The 7 Habits of Highly Effective People](https://www.yakaboo.ua/7-habits-of-highly-effective-people)  
 > [Scrum. Навчись робити вдвічі більше за менший час](https://www.yakaboo.ua/scrum-navchis-robiti-vdvichi-bil-she-za-menshij-chas)  
-> [Оценка времени выполения задачи](https://habr.com/ru/post/52472/)  
+> [Оценка времени выполения задачи](https://habr.com/ru/post/52472)  
 > [Как способность фокусироваться на одной задаче может сделать вас продуктивнее](https://hype.tech/@id1728/kak-sposobnost-fokusirovatsya-na-odnoy-zadache-mozhet-sdelat-vas-produktivnee-8xk9i1zx)  
-> [Гибкий ум. Как видеть вещи иначе и думать нестандартно](https://www.yakaboo.ua/gibkij-um-kak-videt-veschi-inache-i-dumat-nestandartno.html)
+> [Гибкий ум. Как видеть вещи иначе и думать нестандартно](https://www.yakaboo.ua/gibkij-um-kak-videt-veschi-inache-i-dumat-nestandartno)  
 
 </details>
 
@@ -198,8 +200,8 @@ So, is Linux an operating system? Yes, Linux it is one of the most powerful oper
 <br>
 
 > [111+ Linux Statistics and Facts – Linux Rocks!](https://hostingtribunal.com/blog/linux-statistics)  
-> [Linux vs Unix – What’s the Difference?](https://www.plesk.com/blog/various/linux-vs-unix-whats-the-difference/)  
-> [What is Linux: Definition, History, Significance, Perks, and Pitfalls](https://hostingtribunal.com/blog/what-is-linux/)  
+> [Linux vs Unix – What’s the Difference?](https://www.plesk.com/blog/various/linux-vs-unix-whats-the-difference)  
+> [What is Linux: Definition, History, Significance, Perks, and Pitfalls](https://hostingtribunal.com/blog/what-is-linux)  
 
 </details>
 
@@ -211,7 +213,7 @@ So, is Linux an operating system? Yes, Linux it is one of the most powerful oper
 <summary>Show all ideas</summary>
 <br>
 
-### Back-end 👨‍💻
+### 👨‍💻 Back-end
 
 - Web Serves: Nginx, Apache 💖
 - Docker and containerization strategy
@@ -219,13 +221,13 @@ So, is Linux an operating system? Yes, Linux it is one of the most powerful oper
 - Search Engines: ElasticSearch, Solr, Sphinx
 - GOF Design Patterns, Architectural Patterns, Different Testing techniques 💖
 
-### DevOps 🧑‍🔧
+### 🧑‍🔧 DevOps
 
 - OSI Model. TCP/IP/UDP Common ports 💖
 - Knowledge about different file systems 💖
 - Setting up a Reverse Proxy (Ngnix, ...)
 - Setting up caching Server (Squid, Nginx, ...)
-- Setting up a load balancer (HAProxy, Nginx, ...)
+- Setting up a load balancer (HAProxy, Nginx, ...) 💖
 - Setting up a firewall
 - TLS, STARTTLS, SSL, HTTPS, SCP, SSH, SFTP
 - Postmortem analysis when something bad happens
