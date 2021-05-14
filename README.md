@@ -18,7 +18,7 @@ This document describes my current status and upcoming development milestones as
 |   🚧   | [AWS Basics](#aws-basics)                     | 1 / 4 |   Jul 2021     |
 |   ❌   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
 |   ❌   | [Personal development](#personal-development) | 0 / 4 |   2h / week    |
-|   ❌   | [Lightning talk](#lightning_talk)             |   1   |      Aug       |
+|   ✅   | [Light talk](#light-talk)                     |   1   |      Aug       |
 
 <h2 align="center"><strong>Stage #️⃣1️⃣</strong></h2>
 
@@ -179,7 +179,7 @@ English, English, English it is needed everywhere and one of the most important 
 > [Duolingo](https://www.duolingo.com/learn)  
 > [Let's Master English with Coach Shane](.)
 
-## Lightning talk
+## Light talk
 
 The main idea is to tell the audience something interesting from their own experience (for example, a hobby, a new technology, a previous trip) in 20-30 minutes. This presentation should not be very technical - so that it is interesting for all employees of the company.
 
@@ -202,6 +202,7 @@ So, is Linux an operating system? Yes, Linux it is one of the most powerful oper
 > [111+ Linux Statistics and Facts – Linux Rocks!](https://hostingtribunal.com/blog/linux-statistics)  
 > [Linux vs Unix – What’s the Difference?](https://www.plesk.com/blog/various/linux-vs-unix-whats-the-difference)  
 > [What is Linux: Definition, History, Significance, Perks, and Pitfalls](https://hostingtribunal.com/blog/what-is-linux)  
+> [Presentation](https://docs.google.com/presentation/d/1T61sRWjAKVdSf6jlRJIaghVjSOiUqa8-wAnbWTd1uDI/edit?usp=sharing)
 
 </details>
 
