@@ -8,16 +8,16 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Milestone Summary</strong></h2>
 
-🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(10%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(40%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
 
 | Status | Milestone                                     | Goals |   ETA (240h)   |
 | :----: | :-------------------------------------------- | :---: | :------------: |
-|   🚧   | [GitHub Actions](#github-actions)             | 2 / 4 |   Apr 2021     |
-|   🚧   | [Ruby under the hood](#ruby-in-depth)         | 1 / 6 |   May 2021     |
-|   🚧   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 1 / 9 |   Jun 2021     |
+|   🚧   | [GitHub Actions](#github-actions)             | 3 / 5 |   Apr 2021     |
+|   🚧   | [Ruby under the hood](#ruby-in-depth)         | 4 / 6 |   May 2021     |
+|   🚧   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 5 / 9 |   Jun 2021     |
 |   🚧   | [AWS Basics](#aws-basics)                     | 1 / 4 |   Jul 2021     |
 |   ❌   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
-|   ❌   | [Personal development](#personal-development) | 0 / 4 |   2h / week    |
+|   🚧   | [Personal development](#personal-development) | 2 / 4 |   2h / week    |
 |   ✅   | [Light talk](#light-talk)                     |   1   |      Aug       |
 
 <h2 align="center"><strong>Stage #️⃣1️⃣</strong></h2>
@@ -28,9 +28,10 @@ Helps to automate software workflow with world-class CI/CD in Linux, macOS, Wind
 Provide live logs for easy find bugs and vulnerability. Has a lot of open source libraries for help to manage workflow.
 
 - [x] Continuous Integration (CI) and Continuous Delivery (CD) concepts
-- [ ] Concepts of cache and containers
+- [x] Concepts of cache and containers
 - [x] Setup CI for RoR project(with PostgreSQL, RSpec, Capybara, Webpacker)
 - [ ] Setup CD - deploy application to Heroku using **Deploy to Heroku action**
+- [ ] Setup Docker container for Testing Rails Application
 
 <details>
 <summary><b>Resources:</b></summary>
@@ -49,10 +50,10 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 
 - [x] Rack on Ruby
 - [ ] DSL in Ruby
-- [ ] Data Structures 💖
-- [ ] Include, extend, prepend and difference between them
+- [x] Data Structures 💖
+- [x] Include, extend, prepend and difference between them
 - [ ] Metaprogramming what it is and how to use it
-- [ ] SOLID, GRASP, YAGNI, KISS, DRY etc
+- [x] SOLID, GRASP, YAGNI, KISS, DRY etc
 
 <details>
 <summary><b>Resources:</b></summary>
@@ -69,12 +70,12 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 To answer this question, I need to study in more detail the internal structure and all the charms of the RoR framework. Ruby on Rails is a tool that helps to quickly and efficiently implement the functionality that the customer wants. But like any tool, it can become a device that helps to do work more sophisticated and faster, or become a dangerous weapon. To understand the difference and also has some benefits: maintainability, readability, elegance, faster development, DRY code.
 
 - [x] Naming variable and functions in programming
-- [ ] Global classes: Active Record, Active Job, Active Support, Active Cable, Active Storage, Action Mailer
+- [x] Global classes: Active Record, Active Job, Active Support, Active Cable, Active Storage, Action Mailer
 - [ ] Securing Sensitive Data(concepts and examples) 💖
-- [ ] RESTful API, REST vs GraphQL 💖
+- [x] RESTful API, REST vs GraphQL 💖
 - [ ] Authentication: JWT, OAuth 2.0
-- [ ] Catching with Rails
-- [ ] SQL queries in Rails
+- [x] Catching with Rails
+- [x] SQL queries in Rails
 - [ ] Isolation (database systems)
 - [ ] Rails Concepts
 - [ ] Create simple application using Active Cable + Redis
@@ -143,8 +144,8 @@ You'll have on-demand access to highly durable storage, low-cost compute, high-p
 
 Focus on work, identifying my most productive hours throughout the day, and completing my most important tasks during those hours. Correct formulation of the problem and look at the problem from different angles, rethinking the task. Breaking the task down into small parts and setting the correct priorities for their implementation.
 
-- [ ] See tasks differently and think outside the box
-- [ ] Develop the ability to focus on one task
+- [x] See tasks differently and think outside the box
+- [x] Develop the ability to focus on one task
 - [ ] Become a better Stack Overflow user
 - [ ] Estimating task execution time
 
