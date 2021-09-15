@@ -12,8 +12,8 @@ This document describes my current status and upcoming development milestones as
 
 | Status | Milestone                                     | Goals |   ETA (240h)   |
 | :----: | :-------------------------------------------- | :---: | :------------: |
-|   🚧   | [GitHub Actions](#github-actions)             | 3 / 5 |   Apr 2021     |
-|   🚧   | [Ruby under the hood](#ruby-in-depth)         | 4 / 6 |   May 2021     |
+|   ✅   | [GitHub Actions](#github-actions)             | 3 / 3 |   Apr 2021     |
+|   ✅   | [Ruby under the hood](#ruby-in-depth)         | 6 / 6 |   May 2021     |
 |   🚧   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 5 / 9 |   Jun 2021     |
 |   🚧   | [AWS Basics](#aws-basics)                     | 1 / 4 |   Jul 2021     |
 |   ❌   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
@@ -30,8 +30,6 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 - [x] Continuous Integration (CI) and Continuous Delivery (CD) concepts
 - [x] Concepts of cache and containers
 - [x] Setup CI for RoR project(with PostgreSQL, RSpec, Capybara, Webpacker)
-- [ ] Setup CD - deploy application to Heroku using **Deploy to Heroku action**
-- [ ] Setup Docker container for Testing Rails Application
 
 <details>
 <summary><b>Resources:</b></summary>
@@ -49,10 +47,10 @@ Provide live logs for easy find bugs and vulnerability. Has a lot of open source
 ## Ruby in depth
 
 - [x] Rack on Ruby
-- [ ] DSL in Ruby
+- [x] DSL in Ruby
 - [x] Data Structures 💖
 - [x] Include, extend, prepend and difference between them
-- [ ] Metaprogramming what it is and how to use it
+- [x] Metaprogramming what it is and how to use it
 - [x] SOLID, GRASP, YAGNI, KISS, DRY etc
 
 <details>
