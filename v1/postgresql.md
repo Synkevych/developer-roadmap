@@ -58,3 +58,15 @@ where name not in ('bob','alice');
 **Fill Factor** - определяет степень заполнености страницы (блоков данных) таблиц на диске и то, сколько нужно оставить свободного места в блоках для записи туда изменённых версий кортежей. Таблицы в которых записи не изменяются никогда(или крайне редко) смысла менять fill factor нет, что есть правильно (для индексов fill factor уже по умолчанию равен 90)
 
 **pg_stat_statement** - показывает типы запросов которые медленные и как часто эти запросы выполняются.shared_preload_libraries = 'pg_stat_statement'
+
+## Commands
+
+`systemctl status postgresql@12-main` - shows errors if they presented in starting service
+
+`pg_lsclusters` - show all available clusters their port and data directory;
+
+`systemctl start postgresql@12-main` - start postgres version 12;
+
+`sudo -i -u postgres` - login with user postgres;
+
+`sudo vim /etc/postgresql/12/main/postgresql.conf` for changing configuration file;
