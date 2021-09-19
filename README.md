@@ -186,11 +186,11 @@ The main idea is to tell the audience something interesting from their own exper
 
 What device are you reading this article on?
 
-If it happens to be an Android smart device, you are using a machine running Linux at its core. The majority of web servers, including ours that is serving you this very page, and cloud infrastructure are Linux-based as well. “So, what is Linux, some piece of internet software?” the uninitiated might ask.
+If it happens to be an Android smart device, you are using a machine running Linux at its core. The majority of web servers, including ours that is serving you this page, and cloud infrastructure are Linux-based as well. “So, what is Linux, some piece of internet software?” the uninitiated might ask.
 
 Well, Linux isn’t found just in your smartphone or on the internet, it’s probably present in your car as well, be it an Audi, Honda, or Mercedes. Not impressed yet?
 
-How about this – all of the world’s top 500 supercomputers use Linux as their OS (in case you’re scratching head as to what an OS is, we’ll explain that later). It also powers most of the software behind the US Department of Defense, Amazon, Instagram, and Wikipedia, to name just a few.
+How about this – all of the world’s top 500 supercomputers use Linux as their OS. It also powers most of the software behind the US Department of Defense, Amazon, Instagram, and Wikipedia, to name just a few.
 
 So, is Linux an operating system? Yes, Linux it is one of the most powerful operating systems in the world! And it powers much more of the global technology than most people give it credit for. Linux is clearly much more present in our lives than we realize, but it tends to get overshadowed by its bigger, older cousins Windows and Macintosh. As a result, relatively few people know much about it, and some have never even heard of it.
 
