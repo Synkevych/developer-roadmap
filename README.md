@@ -14,10 +14,10 @@ This document describes my current status and upcoming development milestones as
 | :----: | :-------------------------------------------- | :---: | :------------: |
 |   ✅   | [GitHub Actions](#github-actions)             | 3 / 3 |   Apr 2021     |
 |   ✅   | [Ruby under the hood](#ruby-in-depth)         | 6 / 6 |   May 2021     |
-|   🚧   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 5 / 9 |   Jun 2021     |
-|   🚧   | [AWS Basics](#aws-basics)                     | 1 / 4 |   Jul 2021     |
-|   ❌   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
-|   🚧   | [Personal development](#personal-development) | 2 / 4 |   2h / week    |
+|   ✅   | [Is Ruby on Rails Dead?](#is-ror-dead)        | 9 / 9 |   Jun 2021     |
+|   ✅   | [AWS Basics](#aws-basics)                     | 4 / 4 |   Jul 2021     |
+|   🚧   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
+|   ✅   | [Personal development](#personal-development) | 2 / 4 |   2h / week    |
 |   ✅   | [Light talk](#light-talk)                     |   1   |      Aug       |
 
 <h2 align="center"><strong>Stage #️⃣1️⃣</strong></h2>
@@ -69,14 +69,14 @@ To answer this question, I need to study in more detail the internal structure a
 
 - [x] Naming variable and functions in programming
 - [x] Global classes: Active Record, Active Job, Active Support, Active Cable, Active Storage, Action Mailer
-- [ ] Securing Sensitive Data(concepts and examples) 💖
+- [x] Securing Sensitive Data(concepts and examples) 💖
 - [x] RESTful API, REST vs GraphQL 💖
-- [ ] Authentication: JWT, OAuth 2.0
-- [x] Catching with Rails
+- [x] Authentication: JWT, OAuth 2.0
+- [x] Caching with Rails  
 - [x] SQL queries in Rails
-- [ ] Isolation (database systems)
-- [ ] Rails Concepts
-- [ ] Create simple application using Active Cable + Redis
+- [x] Isolation (database systems)
+- [x] Rails Concepts
+- [x] Create simple application using Active Cable + Redis
 
 <details>
 <summary><b>Resources:</b></summary>
@@ -87,7 +87,10 @@ To answer this question, I need to study in more detail the internal structure a
 > [Securing Sensitive Data in Rails](https://ankane.org/sensitive-data-rails)  
 > [Catching with Rails](http://rusrails.ru/caching-with-rails-an-overview)  
 > [Rails Concerns](https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html)  
-
+> [Caching with Rails](https://guides.rubyonrails.org/caching_with_rails.html)
+> [Уровни изолированности транзакций для самых маленьких](https://habr.com/ru/post/469415)
+> [Realtime User Tracking](https://github.com/Synkevych/realtime_user_tracking)
+  
 </details>
 
 ## AWS Basics
@@ -97,9 +100,9 @@ With AWS you'll find a complete set of highly available services which is design
 You'll have on-demand access to highly durable storage, low-cost compute, high-performance databases and the tools to manage these resources all available with upfront costs only pay for what you use.
 
 - [x] AWS Identity and Access Management (IAM)
-- [ ] Create different keys and folders
-- [ ] AWS Simple Storage Services (S3) 💖
-- [ ] Generate Access Keys and setup AWS S3 on Rails project
+- [x] Create different keys and folders
+- [x] AWS Simple Storage Services (S3) 💖
+- [x] Generate Access Keys and setup AWS S3 on Rails project
 
 <details>
 <summary><b>Resources:</b></summary>
@@ -107,6 +110,7 @@ You'll have on-demand access to highly durable storage, low-cost compute, high-p
 
 > [AWS Basics for Beginners Full Course](https://www.youtube.com/watch?v=ulprqHHWlng&ab_channel=freeCodeCamp.org)  
 > [AWS Certified Cloud Practitioner Study Guide](https://www.ebooks.com/en-ua/book/209700948/aws-certified-cloud-practitioner-study-guide/ben-piper/)
+> [Projecto](http://ec2-3-129-9-9.us-east-2.compute.amazonaws.com)
 
 </details>
 
@@ -144,8 +148,8 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 
 - [x] See tasks differently and think outside the box
 - [x] Develop the ability to focus on one task
-- [ ] Become a better Stack Overflow user
-- [ ] Estimating task execution time
+- [x] Become a better Stack Overflow user
+- [x] Estimating task execution time
 
 <details>
 <summary><b>Resources:</b></summary>
