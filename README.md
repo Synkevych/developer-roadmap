@@ -8,7 +8,7 @@ This document describes my current status and upcoming development milestones as
 
 <h2 align="center"><strong>Milestone Summary</strong></h2>
 
-🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**0 / 7** goals completed **(40%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
+🚀 **OPEN** &nbsp;&nbsp; 📉 &nbsp;&nbsp;**6 / 7** goals completed **(90%)** &nbsp;&nbsp;📅 &nbsp;&nbsp;**Tue Aug 31 2021**
 
 | Status | Milestone                                     | Goals |   ETA (240h)   |
 | :----: | :-------------------------------------------- | :---: | :------------: |
