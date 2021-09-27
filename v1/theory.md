@@ -31,10 +31,6 @@ The term Domain Specific Language is used to describe some of the concepts in Ac
 
 ### SOLID, GRASP, YAGNI, KISS, DRY
 
-**DRY** - don't repeat yourself. Если есть часть кода которая дублируется в нескольких частях, ее нужно вынести в отдельную функцию.
-
-**KISS** - keep it simple as possible (or stupid).
-
 **SOLID** - 5 оосновных принципов ООП введенных Майклом Фэзерсом в начале нулевых. Эти принципы — часть общей стратегии гибкой и адаптивной разработки, их соблюдение облегчает расширение и поддержку проекта.
 
 - **Single Responsibility Principle** (Принцип единственной ответственности)
@@ -44,3 +40,7 @@ The term Domain Specific Language is used to describe some of the concepts in Ac
 - **Dependency Inversion Principle** (Принцип инверсии зависимостей)
 
 **YARNI** - you aren't need it (тебе это не понадобится) процесс и принцип проектирования ПО, при котором в качестве основной цели и/или ценности декларируется отказ от избыточной функциональности, — то есть отказ добавления функциональности, в которой нет непосредственной надобности.
+
+**KISS** - keep it simple as possible (or stupid).
+
+**DRY** - don't repeat yourself. Если есть часть кода которая дублируется в нескольких частях, ее нужно вынести в отдельную функцию.

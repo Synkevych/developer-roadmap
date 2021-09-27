@@ -41,4 +41,13 @@ By default ElasticSearch use 4 Gb for SWAP and 4 Gb for heap.
 - Що таке документ?
 - Що таке шарди і репліки?
 - Що таке Query DSL?
-- Що таке мапинг?
+- Що таке мапінг?
+
+
+<details>
+<summary><b>Resources:</b></summary>
+<br>
+
+This section is empty, but you can improve it.
+
+</details>
