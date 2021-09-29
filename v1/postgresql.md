@@ -1,5 +1,9 @@
 # PostgreSQL commands and tips
 
+## Connect to database
+
+`sudo -u postgres psql database_name` - connect ot database by user postgres  
+
 ## Explain Analyze
 
 - Используется для проверки скорости выполнения запроса и показа выбраного постгресом метода для поиска по указаномым параметрам.
@@ -29,6 +33,8 @@ explain select id from test_indexing where id = 2;
 **\dt+** команда показывает размер таблиц
 
 **corellation** - последовательность записи данных, если например индексы записаны не последовательно а в случайном порядке, такая ситуация приводит к ухутшению производительности
+
+**index cardinality** - последовательность записи данных, если например индексы записаны не последовательно а в случайном порядке, такая ситуация приводит к ухутшению производительности
 
 ```sh
 select tablename, attname, correlation
@@ -71,6 +77,73 @@ where name not in ('bob','alice');
 
 `sudo vim /etc/postgresql/12/main/postgresql.conf` for changing configuration file;
 
+### How to use of Index efficiency
+
+`createdb test_indexing`
+
+`psql test_indexing`
+
+`create table test_indexing( id serial, name text);`
+
+`insert into test_indexing (name) select 'bob' from generate_series(1,2500000);`
+
+`select * from test_indexing where id = 4;`
+
+`explain analyze select * from test_indexing where id = 4;`
+
+`create index idx_id on test_indexing (id);`
+
+`\di+` show size of indexes 
+
+`\dt+` show size of table
+
+`create index idx_name on test_indexing (name);`
+
+`create table test_index2 (id serial primary key, value integer);`
+
+```sql
+insert into test_index2(value)
+select trunc (random() * 10)
+from generate_series (1,100000);
+
+create index idx_value on test_index2 (value);
+explain analyze select count(*) from test_index2 where value = 1; # bitmap Heap  scan 
+
+explain select id from test_indexing where id = 1; # used index only scan
+
+create index idx_xy on table(x) include(y); # useful for index only scan
+```
+
+**index on foreing key** - improves joins performance, improve performance when making changes to the parent table, 
+
+**index cardinality** - таблица с большим количеством повторяющихся записей имеет низкую мощность(name), и наоборот если повторяющихся значений нет то высокую(id)
+
+```sql
+create table items(
+item_no serial not null, order_no integer, product_name varchar,
+descr varchar, created_ts timestamp,
+constraint fk_items foreign key (order_no)
+references orders (order_no)
+match simple on update cascade on delete cascade);
+
+with order_rws as ( 
+insert into orders (order_no, order_date)
+select generate_series(1, 1000000) t, now()
+returning order_no)
+insert into items (item_no, order_no, product_name, descr, created_ts)
+select generate_series(1,4) item_no, order_no, 'product',
+repeat('the description of the product' , 10), now()
+from order_rws;
+
+select * from orders ord join items itm on ord.order_no = itm.order_no 
+where ord.order_no = 12;
+
+create index idx_ord on items (order_no);
+```
+
+### Statistics
+
+`pg_stat_statements` - which types of queries are slow and how often these queries are called
 
 ## Questions
 
