@@ -93,13 +93,34 @@ where name not in ('bob','alice');
 
 `create index idx_id on test_indexing (id);`
 
+`create index idx_name on test_indexing (name);`
+
+`create table test_index2 (id serial primary key, value integer);`
+
 `\di+` show size of indexes 
 
 `\dt+` show size of table
 
-`create index idx_name on test_indexing (name);`
+### Uderstanding Vacuum
 
-`create table test_index2 (id serial primary key, value integer);`
+При выполнеии операции удалении записей из таблицы они только помечаються как удаленные но база даных не может использовать их ячейки.
+Vacuum процесс помечает такие ечейки как доступные для использования. 
+Vacuum Full удаляет польностью данные и фрагментирует данные таблицы
+
+```sql
+create table vacuum_test(id int) with (autovacuum_enabled = off); # create new table with disabled vacuum
+
+select pg_size_pretty(pg_relation_size('vacuum_test')); # show size of current table
+
+select * from vacuum_test order by id DESC limit 10; # get last 10 records from database
+
+update vacuum_test set id = id + 1; # update table
+```
+
+### Scalability and replication
+
+Vartical Scaling (increase CPU, RAM, ROM), not code changes is necessary
+Horizontal scaling (increase mashines), add servers gradually as per requirements 
 
 ```sql
 insert into test_index2(value)
