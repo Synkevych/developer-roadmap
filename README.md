@@ -251,5 +251,15 @@ The modern web developer's platform. Angular, supported by Google, is an open-so
 
 > Resources:  
 > [Angular](https://angular.io)  
+  
+### 2022 ftl roadmap
+
+Web Serves Nginx
+Docker in Rails application
+RabbitMQ, Apache Kafka - read
+ElasticSearch - deep dive 
+GOF Design Patterns - book
+DevOps - optional
+Python - course
 
 </details>
