@@ -252,14 +252,15 @@ The modern web developer's platform. Angular, supported by Google, is an open-so
 > Resources:  
 > [Angular](https://angular.io)  
   
-### 2022 ftl roadmap
+### 2022 FTL Roadmap September 2021 - February 2022
 
-- Web Serves Nginx
-- Docker in Rails application
-- RabbitMQ, Apache Kafka - read
-- ElasticSearch - deep dive 
+- Web Serves Nginx: setup Nginx for some rails application
+- Docker in Rails application: dockerize some rails application
+- RabbitMQ, Apache Kafka - read what it is and where you can use it
+- ElasticSearch - deep dive
 - GOF Design Patterns - book
 - DevOps - optional
-- Python - course
+- Python - course: [CodeCademy](https://www.codecademy.com/courses/learn-python/lessons/strings--console-output/resume)
+- Light talk: Web Serves vs Application Servers, Databases in 2022, What is postgraduation in Ukraine
 
 </details>
