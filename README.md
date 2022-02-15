@@ -245,22 +245,25 @@ Go is the most powerful, performant, and scalable programming language today for
 > [Udemy course] (https://www.udemy.com/course/go-programming-language)  
 > [Golang web dev] (https://github.com/GoesToEleven/golang-web-dev)  
 
-## Angular 🅰️
-
-The modern web developer's platform. Angular, supported by Google, is an open-source software engineering platform used for building user interfaces (front-end).
-
-> Resources:  
-> [Angular](https://angular.io)  
-  
 ### 2022 FTL Roadmap September 2021 - February 2022
 
-- Web Serves Nginx: setup Nginx for some rails application
-- Docker in Rails application: dockerize some rails application
-- RabbitMQ, Apache Kafka - read what it is and where you can use it
-- ElasticSearch - deep dive
+#### Ruby and Rails Stack
 - GOF Design Patterns - book
-- DevOps - optional
+- Docker in Rails application: dockerize some rails application
+- ElasticSearch - deep dive
+
+#### Other
+
+- Web Serves Nginx: setup Nginx for some rails application
+- RabbitMQ, Apache Kafka - read what it is and where you can use it
+- OpenStack and Ansible
 - Python - course: [CodeCademy](https://www.codecademy.com/courses/learn-python/lessons/strings--console-output/resume)
-- Light talk: Web Serves vs Application Servers, Databases in 2022, What is postgraduation in Ukraine
+- Presentation: Web Serves vs Application Servers, Databases in 2022, What is postgraduation in Ukraine
+  
+> Resources:
+> [Elasticsearch](https://www.udemy.com/course/elasticsearch-complete-guide)
+> [Docker](https://www.udemy.com/course/docker-mastery)
+> [GraphQL](https://www.udemy.com/course/draft/1456124/learn/lecture/8702302)
+
 
 </details>
