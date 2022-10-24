@@ -18,6 +18,7 @@ This document describes my current status and upcoming development milestones as
 |   ✅   | [AWS Basics](#aws-basics)                     | 4 / 4 |   Jul 2021     |
 |   🚧   | [Boring Front and End](#boring-front-and-end) | 0 / 1 |   Aug 2021     |
 |   ✅   | [Personal development](#personal-development) | 2 / 4 |   2h / week    |
+|   🚧   | [Google Cloud](#google-cloud)                 | 1 / 4 |                |
 |   ✅   | [Light talk](#light-talk)                     |   1   |      Aug       |
 
 <h2 align="center"><strong>Stage #️⃣1️⃣</strong></h2>
@@ -162,6 +163,9 @@ Focus on work, identifying my most productive hours throughout the day, and comp
 > [Гибкий ум. Как видеть вещи иначе и думать нестандартно](https://www.yakaboo.ua/gibkij-um-kak-videt-veschi-inache-i-dumat-nestandartno)  
 
 </details>
+
+## Google Cloud
+(Google Cloud information)[v2/GoogleCloud.md]
 
 ### ⌨️ Typing Speed - 50wps
 
