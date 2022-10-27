@@ -1,14 +1,36 @@
 # Google Cloud Services and Abilities
 
-## AIM
+Basic terms and technologies that need to be understood by achieving a skill badge.
 
-Service that provide
+(User Profile)[https://www.cloudskillsboost.google/public_profiles/777e21b3-a400-4bed-ad95-e9eaa0ee3055]
+
+## Identety and Access Management
+
+Service that provide ability to change access to the provided resources: 
+
+Type of recources:
+  * organisations node
+  * folders
+  * project
+  * recources
+
+Type of roles: 
+  * basic – viewer, editor, owner, search
+  * predefined
+  * custom 
+  * service account
+
+Add to project a user with editor role:
+
+```sh
+gcloud projects add-iam-policy-binding my-project  --member=user:my-user@example.com --role='roles/editor'
+```
 
 ## Cloud Shell
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-Before all you should setup environment and enable services that your need: 
+### Set compute zone  
 
 ```sh
 # Set the default zone
@@ -17,8 +39,39 @@ gcloud config set compute/zone us-central1-f
 gcloud services enable compute.googleapis.com
 ```
 
+### Create MySQL database
+
+```sh
+gcloud services enable sqladmin.googleapis.com
+gcloud sql instances create griffin-dev-db --region=us-east1 --database-version=MYSQL_8_0 --cpu=2 --memory=4GB --root-password=password123
+gcloud sql connect griffin-dev-db --user=root --quiet
+```
+
+### Create a VM
+
+```sh 
+gcloud compute instances create griffin-bastion-wp --network-interface network=griffin-dev-vpc,subnet=griffin-dev-mgmt --network-interface network=griffin-prod-vpc,subnet=griffin-prod-mgmt  --zone=us-east1-b --machine-type=n1-standard-1
+	gcloud compute instances list --sort-by=ZONE
+
+kubectl create -f wp-env.yaml
+kubectl apply -f wp-deployment.yaml
+```
+
+### Create a Kubernetes Cluster 
+
+```sh
+gcloud config set compute/zone us-east1-b
+
+gcloud container clusters create griffin-dev \
+  --machine-type n1-standard-4 \
+  --num-nodes 2 \
+  --network griffin-dev-vpc\
+  --subnetwork griffin-dev-wp\
+  --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
+```
+
 <details>
-<summary><b>Resources:</b></summary>
+<summary><b>Using gcloud create website cluster</b></summary>
 <br>
 
 
@@ -58,7 +111,6 @@ gcloud compute firewall-rules create fw-fe \
 gcloud compute firewall-rules create fw-be \
     --allow tcp:8081-8082 \
     --target-tags=backend
-
 
 # Create instance template for scaling
 gcloud compute instance-templates create fancy-fe \
@@ -118,9 +170,27 @@ gcloud compute instance-groups managed update fancy-be-mig \
 * **Cloud SQL** – 
 * **Cloud Spanner** – 
 * **Firestore** – 
-* **BigQuery** – storage and analytics, use SQL queries, build-in machine learning.
+* **BigQuery** – storage and analytics, use SQL queries, build-in machine learning. Fully-managed petabyte-scale data warehouse that runs on the Google Cloud. Data analysts and data scientists can quickly query and filter large datasets, aggregate results, and perform complex operations without having to worry about setting up and managing servers. It comes in the form of a command line tool (pre installed in cloudshell) or a web console—both ready for managing and querying data housed in Google Cloud projects.
 * **Bigtable** – 
 
+## VPC Networks
+
+```sh
+# Create network:
+	gcloud compute networks create griffin-dev-vpc --subnet-mode=custom;
+	gcloud compute networks create griffin-prod-vpc --subnet-mode=custom;
+	gcloud compute networks list
+
+# Create subnets:
+	gcloud compute networks subnets create griffin-dev-wp --network=griffin-dev-vpc --region=us-east1 --range=192.168.16.0/20;
+	gcloud compute networks subnets create griffin-dev-mgmt --network=griffin-dev-vpc --region=us-east1 --range=192.168.32.0/20;
+	gcloud compute networks subnets create griffin-prod-wp --network=griffin-prod-vpc --region=us-east1 --range=192.168.48.0/20;
+	gcloud compute networks subnets create griffin-prod-mgmt --network=griffin-prod-vpc --region=us-east1 --range=192.168.64.0/20;
+# Create firewall rules for make network reachable:
+	gcloud compute firewall-rules create griffin-dev-vpc-firewall --network griffin-dev-vpc --allow tcp:22,tcp:3389,icmp;
+	gcloud compute firewall-rules create griffin-prod-vpc-firewall --network griffin-prod-vpc --allow tcp:22,tcp:3389,icmp;
+	gcloud compute firewall-rules list --sort-by=NETWORK
+  ```
 
 ## Developing and Deployingh
 
