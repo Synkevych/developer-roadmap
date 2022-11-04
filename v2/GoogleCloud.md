@@ -264,6 +264,13 @@ kubectl set image deployment/fancy-frontend-916 fancy-frontend-916=gcr.io/${GOOG
 What is it, and how use it?
 
 
+## Questions
+
+[] Identity Aware Proxy
+[] Bastion host strategy
+[] A "zero trust" solution: <https://cloud.google.com/beyondcorp-enterprise>
+[] Benefits of using Cloud SQL against local PostgreSQL
+
 ### Resources
 
 [Deploy website on Cloud Run](https://www.cloudskillsboost.google/focuses/10445?parent=catalog)
