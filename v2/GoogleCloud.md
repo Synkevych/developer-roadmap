@@ -173,8 +173,33 @@ gcloud compute instance-groups managed update fancy-be-mig \
 * **BigQuery** – storage and analytics, use SQL queries, build-in machine learning. Fully-managed petabyte-scale data warehouse that runs on the Google Cloud. Data analysts and data scientists can quickly query and filter large datasets, aggregate results, and perform complex operations without having to worry about setting up and managing servers. It comes in the form of a command line tool (pre installed in cloudshell) or a web console—both ready for managing and querying data housed in Google Cloud projects.
 * **Bigtable** – 
 
+### Command to working with backet from Cloud Shell
+
+```
+gsutil -m cp -r gs://cloud-training/folder .
+```
+
+### Commands to work with PostgreSQL instance
+
+```
+# get Information about the sql instance 
+gcloud sql instances describe $CLOUD_SQL_INSTANCE
+
+# create a backup by providing date 
+gcloud sql instances patch $CLOUD_SQL_INSTANCE  --backup-start-time=HH:MM
+
+# enable point in time clone 
+gcloud sql instances patch $CLOUD_SQL_INSTANCE \
+     --enable-point-in-time-recovery \
+     --retained-transaction-log-days=1
+
+# crate point in time clone
+gcloud sql instances clone $CLOUD_SQL_INSTANCE $NEW_INSTANCE_NAME --point-in-time 'TIMESTAMP'
+```
+
 ## VPC Networks
 
+Working with networks using Cloud Shell 
 ```sh
 # Create network:
 	gcloud compute networks create griffin-dev-vpc --subnet-mode=custom;
