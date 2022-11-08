@@ -289,14 +289,75 @@ kubectl set image deployment/fancy-frontend-916 fancy-frontend-916=gcr.io/${GOOG
 What is it, and how use it?
 
 
+## Create a Cloud Run service that converts files to PDF files in the cloud 
+
+Build a container and push it to Container Registry:
+
+`gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/pdf-converter`
+
+To deploy container to Cloud Run as a service:
+
+```sh
+gcloud run deploy pdf-converter \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/pdf-converter \
+  --platform managed \
+  --region us-east1 \
+  --no-allow-unauthenticated \
+  --max-instances=1
+
+gcloud run deploy pdf-converter \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/pdf-converter \
+  --platform managed \
+  --region us-east1 \
+  --memory=2Gi \
+  --no-allow-unauthenticated \
+  --max-instances=1 \
+  --set-env-vars PDF_BUCKET=$GOOGLE_CLOUD_PROJECT-processed
+```
+
+Check working:
+
+`curl -X POST -H "Authorization: Bearer $(gcloud auth print-identity-token)" $SERVICE_URL`
+
+Create a bucket for file storage: 
+
+`gsutil mb gs://$GOOGLE_CLOUD_PROJECT-upload`
+
+Create a Pub/Sub notification whenever a new file finished uploading to the bucker(-t is a label):
+
+`gsutil notification create -t new-doc -f json -e OBJECT_FINALIZE gs://$GOOGLE_CLOUD_PROJECT-upload`
+
+Create a new service account which Pub/Sub will use to trigger the Cloud Run services: 
+
+`gcloud iam service-accounts create pubsub-cloud-run-invoker --display-name "PubSub Cloud Run Invoker"`
+
+Give the new service account permission to invoke the PDF converter service:
+
+`gcloud beta run services add-iam-policy-binding pdf-converter --member=serviceAccount:pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com --role=roles/run.invoker --platform managed --region us-east1`
+
+Enable your project to crate Cloud Pub/Sub authentication token:
+
+```
+PROJECT_NUMBER=[project_number]
+gcloud projects add-iam-policy-binding $GOOGLE_CLOUD_PROJECT --member=serviceAccount:service-$PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com --role=roles/iam.serviceAccountTokenCreator
+```
+
+Create a Pub/Sub subscription so that the PDF converter can run whenever a message is published to the topic “new-doc”
+
+`gcloud beta pubsub subscriptions create pdf-conv-sub --topic new-doc --push-endpoint=$SERVICE_URL --push-auth-service-account=pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com`
+
+
 ## Questions
 
 [] Identity Aware Proxy
 [] Bastion host strategy
 [] A "zero trust" solution: <https://cloud.google.com/beyondcorp-enterprise>
 [] Benefits of using Cloud SQL against local PostgreSQL
+[] What is BigQuery and why it is better that rational databases like postgresql or mysql?
 
 ### Resources
 
 [Deploy website on Cloud Run](https://www.cloudskillsboost.google/focuses/10445?parent=catalog)
 [Hosting a Web App on Google Cloud Using Compute Engine](https://www.cloudskillsboost.google/focuses/11952?parent=catalog)
+[Create PDF Files using Cloud Run](https://www.cloudskillsboost.google/focuses/8390?parent=catalog)
+[Importing Data to a Firestore Database](https://www.cloudskillsboost.google/focuses/8392?parent=catalog)
