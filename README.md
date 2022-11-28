@@ -186,11 +186,11 @@ English, English, English it is needed everywhere and one of the most important 
 > [Duolingo](https://www.duolingo.com/learn)  
 > [Let's Master English with Coach Shane](.)
 
-## Light talk [Presentation](https://docs.google.com/presentation/d/1T61sRWjAKVdSf6jlRJIaghVjSOiUqa8-wAnbWTd1uDI/edit?usp=sharing)
+## Light talk
 
 The main idea is to tell the audience something interesting from their own experience (for example, a hobby, a new technology, a previous trip) in 20-30 minutes. This presentation should not be very technical - so that it is interesting for all employees of the company.
 
-### 🗣️ Presentation topic: **Linux is everywhere – Facts everyone should know**
+### 🗣️ Presentation topic: [**Linux is everywhere – Facts everyone should know**](https://docs.google.com/presentation/d/1T61sRWjAKVdSf6jlRJIaghVjSOiUqa8-wAnbWTd1uDI/edit?usp=sharing)
 
 What device are you reading this article on?
 
