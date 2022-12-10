@@ -229,6 +229,21 @@ Working with networks using Cloud Shell
 
 ### Cloud Build
 
+> Serverless CI/CD platform for build, test and deploy your builds on Google Cloud. You can configure builds to fetch dependencies, run unit tests, static analyses, and integration tests, and create artifacts with build tools such as docker, gradle, maven, bazel, and gulp.
+
+### Container Registry (Docker images)
+
+### Commands
+
+```sh
+# Build the image using carrent dir as a source.
+docker build -t gcr.io/PROJECT_ID/hello-node:v1 .
+# Check the build by run it
+docker run -d -p 8080:8080 gcr.io/PROJECT_ID/hello-node:v1
+# Push the build to Container Registry
+docker push gcr.io/qwiklabs-gcp-01-21557d62afb4/hello-node:v1
+```
+
 ### Kubernetes Engine
 
 Why it is better to use Kubernets ?
