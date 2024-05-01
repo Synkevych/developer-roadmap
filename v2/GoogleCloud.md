@@ -270,7 +270,7 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/monolith:1.0.0 .
 # deploy container to GKE
 kubectl create deployment monolith --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/monolith:1.0.0
 
-# expose your wevsite to the interner
+# expose your website to the interner
 kubectl expose deployment monolith --type=LoadBalancer --port 80 --target-port 8080
 kubectl get services # will show you external ip address
 
@@ -302,6 +302,7 @@ kubectl set image deployment/fancy-frontend-916 fancy-frontend-916=gcr.io/${GOOG
 ## Artifact Registry
 
 What is it, and how use it?
+I's a recources repo like github or dockerhub, but private and used only in the created project.
 
 
 ## Create a Cloud Run service that converts files to PDF files in the cloud 
